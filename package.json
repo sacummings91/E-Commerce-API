@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.2",
     "boom": "^6.0.0",
+    "cors": "^2.8.4",
     "dotenv": "^4.0.0",
     "express": "^4.16.2",
     "express-jwt": "^5.3.0",
@@ -15,7 +17,8 @@
     "lodash.pick": "^4.4.0",
     "mock-knex": "^0.3.9",
     "nodemon": "^1.12.1",
-    "pg": "^7.3.0"
+    "pg": "^7.3.0",
+    "yup": "^0.23.0"
   },
   "devDependencies": {},
   "scripts": {

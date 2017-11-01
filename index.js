@@ -1,14 +1,22 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const Boom = require('boom');
+const cors = require('cors');
 const UnauthorizedError = require('express-jwt/lib/errors/UnauthorizedError');
 
 const server = express();
 
 const itemsRouter = require('./lib/instances/itemsRouter');
+const usersRouter = require('./lib/instances/usersRouter');
+const favoritesRouter = require('./lib/instances/favoritesRouter');
+const ordersRouter = require('./lib/instances/ordersRouter');
 
 server.use(bodyParser.json());
+server.use(cors());
 server.use(itemsRouter);
+server.use(usersRouter);
+server.use(favoritesRouter);
+server.use(ordersRouter);
 
 server.all('*', (req, res, next) => res.sendStatus(404));
 
