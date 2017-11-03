@@ -20,9 +20,9 @@
     </h1>
     <div class='clearfix'>
       <div class='fl pad1y space-right2'>
-        <span class="strong">39.39% </span>
+        <span class="strong">63.16% </span>
         <span class="quiet">Statements</span>
-        <span class='fraction'>13/33</span>
+        <span class='fraction'>24/38</span>
       </div>
       <div class='fl pad1y space-right2'>
         <span class="strong">50% </span>
@@ -30,18 +30,18 @@
         <span class='fraction'>1/2</span>
       </div>
       <div class='fl pad1y space-right2'>
-        <span class="strong">42.86% </span>
+        <span class="strong">87.5% </span>
         <span class="quiet">Functions</span>
-        <span class='fraction'>3/7</span>
+        <span class='fraction'>7/8</span>
       </div>
       <div class='fl pad1y space-right2'>
-        <span class="strong">39.39% </span>
+        <span class="strong">63.16% </span>
         <span class="quiet">Lines</span>
-        <span class='fraction'>13/33</span>
+        <span class='fraction'>24/38</span>
       </div>
     </div>
   </div>
-  <div class='status-line low'></div>
+  <div class='status-line medium'></div>
 <pre><table class="coverage">
 <tr><td class="line-count quiet">1
 2
@@ -121,7 +121,20 @@
 76
 77
 78
-79</td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92</td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -154,9 +167,9 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
@@ -164,6 +177,32 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -177,20 +216,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -231,26 +257,39 @@ class EntityRepository {
     }
   }
 &nbsp;
-<span class="fstat-no" title="function not covered" >  as</span>ync getById(id) {
-<span class="cstat-no" title="statement not covered" >    try {</span>
-      const [record] = <span class="cstat-no" title="statement not covered" >await this._db(this._entityName).where({ id });</span>
-<span class="cstat-no" title="statement not covered" >      return record;</span>
+  async getById(id) {
+    try {
+      const [record] = await this._db(this._entityName).where({ id });
+      return record;
     } catch (error) {
 <span class="cstat-no" title="statement not covered" >      this._logError(error);</span>
 <span class="cstat-no" title="statement not covered" >      throw this._createUnexpectedError();</span>
     }
   }
 &nbsp;
-<span class="fstat-no" title="function not covered" >  as</span>ync update(id, attributes) {
-<span class="cstat-no" title="statement not covered" >    try {</span>
-      const [record] = <span class="cstat-no" title="statement not covered" >await this._db(this._entityName)</span>
+  async findByAttribute(attributeName, attributeValue) {
+    try {
+      const records = await this._db(this._entityName).where(
+        attributeName,
+        attributeValue
+      );
+      return records;
+    } catch (error) {
+<span class="cstat-no" title="statement not covered" >      this._logError(error);</span>
+<span class="cstat-no" title="statement not covered" >      throw this._createUnexpectedError();</span>
+    }
+  }
+&nbsp;
+  async update(id, attributes) {
+    try {
+      const [record] = await this._db(this._entityName)
         .update(attributes)
         .returning('*')
         .where({ id });
 <span class="cstat-no" title="statement not covered" >      return record;</span>
     } catch (error) {
-<span class="cstat-no" title="statement not covered" >      this._logError(error);</span>
-<span class="cstat-no" title="statement not covered" >      throw this._createUnexpectedError();</span>
+      this._logError(error);
+      throw this._createUnexpectedError();
     }
   }
 &nbsp;
@@ -267,8 +306,8 @@ class EntityRepository {
     }
   }
 &nbsp;
-<span class="fstat-no" title="function not covered" >  _c</span>reateUnexpectedError() {
-<span class="cstat-no" title="statement not covered" >    throw new Error(</span>
+  _createUnexpectedError() {
+    throw new Error(
       EntityRepository.ERROR_UNEXPECTED.replace('Entity', this._entityName)
     );
   }
@@ -283,7 +322,7 @@ module.exports = EntityRepository;
 </div><!-- /wrapper -->
 <div class='footer quiet pad2 space-top1 center small'>
   Code coverage
-  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Oct 31 2017 09:44:48 GMT-0700 (PDT)
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Wed Nov 01 2017 15:41:37 GMT-0700 (PDT)
 </div>
 </div>
 <script src="../prettify.js"></script>
