@@ -61,5 +61,6 @@ const port =
     : 8000;
 
 server.listen(port, () => {
+  if (process.env.NODE_ENV === 'test') return;
   console.log(`Listening on port ${port}`); // eslint-disable-line no-console
 });

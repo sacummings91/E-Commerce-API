@@ -1,49 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1509742052710" clover="3.2.0">
-  <project timestamp="1509742052710" name="All files">
-    <metrics statements="39" coveredstatements="39" conditionals="8" coveredconditionals="8" methods="9" coveredmethods="9" elements="56" coveredelements="56" complexity="0" loc="39" ncloc="39" packages="1" files="1" classes="1">
-      <file name="EntityController.js" path="/Users/stevencummings/workspace/api-ecommerce/lib/controllers/EntityController.js">
-        <metrics statements="39" coveredstatements="39" conditionals="8" coveredconditionals="8" methods="9" coveredmethods="9"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="12" count="2" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="22" count="2" type="stmt"/>
-        <line num="23" count="2" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="36" count="2" type="stmt"/>
-        <line num="37" count="2" type="stmt"/>
-        <line num="38" count="2" type="stmt"/>
-        <line num="41" count="1" type="stmt"/>
-        <line num="43" count="1" type="stmt"/>
-        <line num="48" count="2" type="stmt"/>
-        <line num="49" count="2" type="stmt"/>
-        <line num="50" count="2" type="stmt"/>
-        <line num="53" count="1" type="stmt"/>
-        <line num="55" count="1" type="stmt"/>
-        <line num="60" count="2" type="stmt"/>
-        <line num="61" count="2" type="stmt"/>
-        <line num="62" count="2" type="stmt"/>
-        <line num="65" count="1" type="stmt"/>
-        <line num="67" count="1" type="stmt"/>
-        <line num="72" count="1" type="stmt"/>
-        <line num="73" count="5" type="stmt"/>
-        <line num="78" count="5" type="cond" truecount="2" falsecount="0"/>
-        <line num="79" count="1" type="stmt"/>
-        <line num="81" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="82" count="1" type="stmt"/>
-        <line num="84" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="85" count="1" type="stmt"/>
-        <line num="87" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="88" count="1" type="stmt"/>
-        <line num="90" count="1" type="stmt"/>
-        <line num="94" count="1" type="stmt"/>
-      </file>
+<coverage generated="1509746110758" clover="3.2.0">
+  <project timestamp="1509746110758" name="All files">
+    <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="0" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="0" files="0" classes="0">
     </metrics>
   </project>
 </coverage>
