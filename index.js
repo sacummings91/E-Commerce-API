@@ -46,7 +46,7 @@ server.all('*', (req, res, next) => res.sendStatus(404));
 server.use((err, req, res, next) => {
   console.log(err); // eslint-disable-line no-console
   if (err instanceof UnauthorizedError || err.typeof === Boom.unauthorized) {
-    error = Boom.unauthorized(error.message, ['Bearer']);
+    err = Boom.unauthorized(err.message, ['Bearer']);
   }
   if (!err.isBoom) error = Boom.badImplementation();
   res

@@ -49,7 +49,8 @@ exports.seed = function(knex, Promise) {
           firstName: 'Steven',
           lastName: 'Cummings',
           email: 'sacummings91@gmail.com',
-          hashedPassword: '',
+          hashedPassword:
+            '$2a$10$7xLM1blUtLFdLieXTFl52OBjl5lLzP3CH0SYU.ZbLfJ2a3zzkav3e',
           role: 'ROLE_ADMIN'
         },
         {
@@ -58,7 +59,8 @@ exports.seed = function(knex, Promise) {
           firstName: 'Brandon',
           lastName: 'Bevans',
           email: 'brandonbevans@gmail.com',
-          hashedPassword: '',
+          hashedPassword:
+            '$2a$10$7xLM1blUtLFdLieXTFl52OBjl5lLzP3CH0SYU.ZbLfJ2a3zzkav3e',
           role: 'ROLE_STANDARD_USER'
         },
         {
