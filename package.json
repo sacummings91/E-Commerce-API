@@ -31,7 +31,8 @@
   "scripts": {
     "test": "jest --coverage",
     "knex": "knex",
-    "start": "nodemon"
+    "start": "node .",
+    "start:dev": "nodemon"
   },
   "author": "",
   "license": "ISC"
