@@ -35,6 +35,7 @@ server.use((req, res, next) => {
   next();
 });
 
+server.use(express.static(__dirname + '/public'));
 server.use(itemsRouter);
 server.use(usersRouter);
 server.use(favoritesRouter);
