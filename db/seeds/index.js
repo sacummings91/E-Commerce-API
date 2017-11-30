@@ -81,7 +81,8 @@ exports.seed = function(knex, Promise) {
       knex('Order').insert([
         { id: 1, confirmationNum: 9385902, userId: 2 },
         { id: 2, confirmationNum: 0983845, userId: 2 },
-        { id: 3, confirmationNum: 9385930, userId: 3 }
+        { id: 3, confirmationNum: 9385930, userId: 3 },
+        { id: 4, confirmationNum: 0283940, userId: 1 }
       ])
     )
     .then(() =>
