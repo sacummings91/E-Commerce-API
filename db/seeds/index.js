@@ -9,39 +9,64 @@ exports.seed = function(knex, Promise) {
         [
           {
             id: 1,
-            name: 'Black T-Shirt',
-            description: 'This is a black T-Shirt',
+            name: 'The California 2.0 T-Shirt in Black',
+            description: 'Machine wash cold, Cotton',
             category: 'Shirts',
             isFeatured: true,
-            price: 19.99,
-            imageUrl: 'Some really long image URL'
+            price: 32.0,
+            imageUrl:
+              'https://cdn.karmaloopassets.com/vendor458x698/1041113-1.jpg'
           },
           {
             id: 2,
-            name: 'White T-Shirt',
-            description: 'This is a white T-Shirt',
+            name: 'The California 2.0 T-Shirt in White',
+            description: 'Machine wash cold, cotton',
             category: 'Shirts',
             isFeatured: false,
-            price: 14.99,
-            imageUrl: 'Some really long image URL'
+            price: 32.0,
+            imageUrl:
+              'https://cdn.karmaloopassets.com/vendor458x698/1041114-1.jpg'
           },
           {
             id: 3,
-            name: 'Tye Dye Hoodie',
-            description: 'This is a Tye Dye Hoodie',
+            name: 'The Clima 3.0 Hoodie in Black',
+            description: 'Machine wash cold, Cotton',
             category: 'Jackets',
             isFeatured: true,
-            price: 29.99,
-            imageUrl: 'Some really long image URL'
+            price: 55.0,
+            imageUrl:
+              'https://cdn.karmaloopassets.com/vendor458x698/1041117-1.jpg'
           },
           {
             id: 4,
-            name: 'Blue Jeans',
-            description: 'These are a pair of jeans',
+            name:
+              'The Daytripper Tape Striped Distressed Denim in Acid Wash Blue',
+            description: 'Machine wash cold, 100% cotton',
+            category: 'Bottoms',
+            isFeatured: true,
+            price: 60.0,
+            imageUrl:
+              'https://cdn.karmaloopassets.com/vendor458x698/667841-1.jpg'
+          },
+          {
+            id: 5,
+            name: 'The Trefoil Pullover Hoodie in Granite',
+            description: 'Machine wash cold, 70% cotton 30% polyester',
+            category: 'Jackets',
+            isFeatured: false,
+            price: 65.0,
+            imageUrl:
+              'https://cdn.karmaloopassets.com/vendor458x698/617175-1.jpg'
+          },
+          {
+            id: 6,
+            name: 'The Pacific Denim in Black',
+            description: 'Machine wash cold, 98% cotton 2% elastine',
             category: 'Bottoms',
             isFeatured: false,
-            price: 39.99,
-            imageUrl: 'Some really long image URL'
+            price: 60.0,
+            imageUrl:
+              'https://cdn.karmaloopassets.com/vendor458x698/619375-1.jpg'
           }
         ],
         '*'
