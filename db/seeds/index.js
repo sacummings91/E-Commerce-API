@@ -11,7 +11,7 @@ exports.seed = function(knex, Promise) {
             id: 1,
             name: 'Black T-Shirt',
             description: 'This is a black T-Shirt',
-            category: 'Shirt',
+            category: 'Shirts',
             isFeatured: true,
             price: 19.99,
             imageUrl: 'Some really long image URL'
@@ -20,7 +20,7 @@ exports.seed = function(knex, Promise) {
             id: 2,
             name: 'White T-Shirt',
             description: 'This is a white T-Shirt',
-            category: 'Shirt',
+            category: 'Shirts',
             isFeatured: false,
             price: 14.99,
             imageUrl: 'Some really long image URL'
@@ -29,9 +29,18 @@ exports.seed = function(knex, Promise) {
             id: 3,
             name: 'Tye Dye Hoodie',
             description: 'This is a Tye Dye Hoodie',
-            category: 'Jacket',
+            category: 'Jackets',
             isFeatured: true,
             price: 29.99,
+            imageUrl: 'Some really long image URL'
+          },
+          {
+            id: 4,
+            name: 'Blue Jeans',
+            description: 'These are a pair of jeans',
+            category: 'Bottoms',
+            isFeatured: false,
+            price: 39.99,
             imageUrl: 'Some really long image URL'
           }
         ],
@@ -80,9 +89,10 @@ exports.seed = function(knex, Promise) {
     .then(() =>
       knex('Order').insert([
         { id: 1, confirmationNum: 9385902, userId: 2 },
-        { id: 2, confirmationNum: 0983845, userId: 2 },
+        { id: 2, confirmationNum: 9983845, userId: 2 },
         { id: 3, confirmationNum: 9385930, userId: 3 },
-        { id: 4, confirmationNum: 0283940, userId: 1 }
+        { id: 4, confirmationNum: 9283940, userId: 1 },
+        { id: 5, confirmationNum: 9384859, userId: 1 }
       ])
     )
     .then(() =>

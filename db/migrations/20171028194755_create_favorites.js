@@ -9,7 +9,7 @@ exports.up = function(knex, Promise) {
     table
       .integer('itemId')
       .notNullable()
-      .references('User.id')
+      .references('Item.id')
       .onDelete('cascade');
   });
 };
