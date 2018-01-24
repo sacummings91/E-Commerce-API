@@ -49,7 +49,7 @@ server.use((err, req, res, next) => {
   if (err instanceof UnauthorizedError || err.typeof === Boom.unauthorized) {
     err = Boom.unauthorized(err.message, ['Bearer']);
   }
-  if (!err.isBoom) error = Boom.badImplementation();
+  if (!err.isBoom) err = Boom.badImplementation();
   res
     .set(err.output.headers)
     .status(err.output.statusCode)

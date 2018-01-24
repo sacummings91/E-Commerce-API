@@ -67,6 +67,37 @@ exports.seed = function(knex, Promise) {
             price: 60.0,
             imageUrl:
               'https://cdn.karmaloopassets.com/vendor458x698/619375-1.jpg'
+          },
+          {
+            id: 7,
+            name: 'The Unisex Classic Old SKool in Black and White',
+            description: 'Canvas upper, Rubber outsole',
+            category: 'Footwear',
+            isFeatured: false,
+            price: 60.0,
+            imageUrl:
+              'https://cdn.karmaloopassets.com/vendor190x290/612753-1.jpg'
+          },
+          {
+            id: 8,
+            name: 'The Unisex Classic Authentic in Black',
+            description: 'Canvas upper, Rubber outsole',
+            category: 'Footwear',
+            isFeatured: true,
+            price: 50.0,
+            imageUrl:
+              'https://cdn.karmaloopassets.com/vendor190x290/612749-1.jpg'
+          },
+          {
+            id: 9,
+            name: 'The SS CF Seam Dual Hem Thermal Tee in Matte Black',
+            description:
+              'Crewneck, Short sleeves, Solid colorway, Side slits on hem, Elongated hem, Machine wash cold, 60% cotton, 40% polyester, Imported',
+            category: 'Shirts',
+            isFeatured: false,
+            price: 20.95,
+            imageUrl:
+              'https://cdn.karmaloopassets.com/vendor190x290/599641-1.jpg'
           }
         ],
         '*'
