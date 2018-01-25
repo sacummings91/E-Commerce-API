@@ -7,6 +7,8 @@ exports.up = function(knex, Promise) {
       .notNullable()
       .references('User.id')
       .onDelete('cascade');
+    table.float('total').notNullable();
+    table.specificType('itemIds', 'jsonb[]');
     table
       .timestamp('dateCreated')
       .notNullable()
