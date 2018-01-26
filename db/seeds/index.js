@@ -200,5 +200,24 @@ exports.seed = function(knex, Promise) {
       knex.raw(
         `SELECT setval('"Favorite_id_seq"', (SELECT MAX("id") FROM "Favorite"))`
       )
+    )
+    .then(() =>
+      knex('Order_Item').insert([
+        { id: 1, orderId: 1, itemId: 1 },
+        { id: 2, orderId: 2, itemId: 1 },
+        { id: 3, orderId: 2, itemId: 2 },
+        { id: 4, orderId: 3, itemId: 2 },
+        { id: 5, orderId: 4, itemId: 1 },
+        { id: 6, orderId: 4, itemId: 2 },
+        { id: 7, orderId: 4, itemId: 3 },
+        { id: 8, orderId: 5, itemId: 3 },
+        { id: 9, orderId: 5, itemId: 4 },
+        { id: 10, orderId: 5, itemId: 7 }
+      ])
+    )
+    .then(() =>
+      knex.raw(
+        `SELECT setval('"Order_Item_id_seq"', (SELECT MAX("id") FROM "Order_Item"))`
+      )
     );
 };
